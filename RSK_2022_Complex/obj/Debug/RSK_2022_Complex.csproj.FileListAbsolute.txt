@@ -1,0 +1,7 @@
+D:\WORK\Stud\C_examples\RSK_2022_Cons\RSK_2022_Complex\bin\Debug\RSK_2022_Complex.pdb
+D:\WORK\Stud\C_examples\RSK_2022_Cons\RSK_2022_Complex\obj\Debug\RSK_2022_Complex.csprojAssemblyReference.cache
+D:\WORK\Stud\C_examples\RSK_2022_Cons\RSK_2022_Complex\obj\Debug\RSK_2022_Complex.csproj.CoreCompileInputs.cache
+D:\WORK\Stud\C_examples\RSK_2022_Cons\RSK_2022_Complex\obj\Debug\RSK_2022_Complex.pdb
+D:\WORK\Stud\C_examples\RSK_2022_Cons\RSK_2022_Complex\bin\Debug\RSK_2022_Complex.dll.config
+D:\WORK\Stud\C_examples\RSK_2022_Cons\RSK_2022_Complex\bin\Debug\RSK_2022_Complex.dll
+D:\WORK\Stud\C_examples\RSK_2022_Cons\RSK_2022_Complex\obj\Debug\RSK_2022_Complex.dll

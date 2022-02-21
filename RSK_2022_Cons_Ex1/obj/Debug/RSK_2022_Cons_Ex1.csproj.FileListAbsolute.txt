@@ -1,0 +1,7 @@
+D:\WORK\Stud\C_examples\RSK_2022_Cons\RSK_2022_Cons_Ex1\bin\Debug\RSK_2022_Cons_Ex1.exe.config
+D:\WORK\Stud\C_examples\RSK_2022_Cons\RSK_2022_Cons_Ex1\bin\Debug\RSK_2022_Cons_Ex1.exe
+D:\WORK\Stud\C_examples\RSK_2022_Cons\RSK_2022_Cons_Ex1\bin\Debug\RSK_2022_Cons_Ex1.pdb
+D:\WORK\Stud\C_examples\RSK_2022_Cons\RSK_2022_Cons_Ex1\obj\Debug\RSK_2022_Cons_Ex1.csprojAssemblyReference.cache
+D:\WORK\Stud\C_examples\RSK_2022_Cons\RSK_2022_Cons_Ex1\obj\Debug\RSK_2022_Cons_Ex1.csproj.CoreCompileInputs.cache
+D:\WORK\Stud\C_examples\RSK_2022_Cons\RSK_2022_Cons_Ex1\obj\Debug\RSK_2022_Cons_Ex1.exe
+D:\WORK\Stud\C_examples\RSK_2022_Cons\RSK_2022_Cons_Ex1\obj\Debug\RSK_2022_Cons_Ex1.pdb
