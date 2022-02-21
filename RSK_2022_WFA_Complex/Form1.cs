@@ -112,5 +112,28 @@ namespace RSK_2022_WFA_Complex
 
             //});
         }
+
+        private void tbReal_TextChanged(object sender, EventArgs e)
+        {
+            var tb = (sender as TextBox);
+            
+            
+            string valid = "0123456789i+-*.,/ ";
+            
+            bool isOk = true;
+            foreach(var s in tb.Text)
+            {
+                //if (!valid.Contains(s)) isOk = false;
+                isOk = valid.Contains(s) ? isOk : false;
+            }
+
+            lblTest.Text = "";
+            if (!isOk) lblTest.Text = "Есть Недопустимый символ";
+        }
+
+        private void tbReal_KeyDown(object sender, KeyEventArgs e)
+        {
+            
+        }
     }
 }

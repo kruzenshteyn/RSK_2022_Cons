@@ -40,6 +40,7 @@ namespace RSK_2022_WFA_Complex
             this.lblPos = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.progressBar1 = new System.Windows.Forms.ProgressBar();
+            this.lblTest = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnSayHello
@@ -58,6 +59,8 @@ namespace RSK_2022_WFA_Complex
             this.tbReal.Name = "tbReal";
             this.tbReal.Size = new System.Drawing.Size(100, 20);
             this.tbReal.TabIndex = 1;
+            this.tbReal.TextChanged += new System.EventHandler(this.tbReal_TextChanged);
+            this.tbReal.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tbReal_KeyDown);
             // 
             // tbImage
             // 
@@ -135,11 +138,21 @@ namespace RSK_2022_WFA_Complex
             this.progressBar1.Size = new System.Drawing.Size(174, 24);
             this.progressBar1.TabIndex = 10;
             // 
+            // lblTest
+            // 
+            this.lblTest.AutoSize = true;
+            this.lblTest.Location = new System.Drawing.Point(92, 138);
+            this.lblTest.Name = "lblTest";
+            this.lblTest.Size = new System.Drawing.Size(28, 13);
+            this.lblTest.TabIndex = 11;
+            this.lblTest.Text = "Test";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.lblTest);
             this.Controls.Add(this.progressBar1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.lblPos);
@@ -172,6 +185,7 @@ namespace RSK_2022_WFA_Complex
         private System.Windows.Forms.Label lblPos;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.ProgressBar progressBar1;
+        private System.Windows.Forms.Label lblTest;
     }
 }
 
