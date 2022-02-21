@@ -40,7 +40,7 @@ namespace RSK_2022_WFA_Complex
                 progressBar1.Value = 0;
                 var progress = new Progress<int>(value => { progressBar1.Increment(value); });
 
-                var res = await ProgressBarExampleParallel(progress);
+                var res = await ProgressBarExample(progress);
                 //Вычисление суммы прогрессии
                 double sum = 0;
                 foreach (var d in res)
