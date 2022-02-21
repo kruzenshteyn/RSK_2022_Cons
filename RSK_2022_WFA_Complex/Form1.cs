@@ -127,7 +127,7 @@ namespace RSK_2022_WFA_Complex
             }
 
             lblTest.Text = "";
-            if (!isOk) lblTest.Text = "Есть Недопустимый символ";
+            if (!isOk) lblTest.Text = "Есть недопустимый символ";
         }
 
         private void tbReal_KeyDown(object sender, KeyEventArgs e)
