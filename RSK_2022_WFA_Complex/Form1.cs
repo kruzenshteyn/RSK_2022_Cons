@@ -117,7 +117,6 @@ namespace RSK_2022_WFA_Complex
         {
             var tb = (sender as TextBox);
             
-            
             string valid = "0123456789i+-*.,/ ";
             
             bool isOk = true;
