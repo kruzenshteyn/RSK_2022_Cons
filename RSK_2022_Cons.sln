@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest_Cons", "UnitTest_C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RSK_2022_WFA_Complex", "RSK_2022_WFA_Complex\RSK_2022_WFA_Complex.csproj", "{3B845FB5-28AD-4894-BBAB-26D15A785193}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RSK_2022_Drawing", "RSK_2022_Drawing\RSK_2022_Drawing.csproj", "{C3F8487B-3165-473B-8BF2-8BFCB2232B3D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{3B845FB5-28AD-4894-BBAB-26D15A785193}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3B845FB5-28AD-4894-BBAB-26D15A785193}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3B845FB5-28AD-4894-BBAB-26D15A785193}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3F8487B-3165-473B-8BF2-8BFCB2232B3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3F8487B-3165-473B-8BF2-8BFCB2232B3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3F8487B-3165-473B-8BF2-8BFCB2232B3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3F8487B-3165-473B-8BF2-8BFCB2232B3D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

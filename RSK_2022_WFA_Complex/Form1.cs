@@ -134,5 +134,53 @@ namespace RSK_2022_WFA_Complex
         {
             
         }
+
+        MyComplexSignal signal = new MyComplexSignal();
+
+        private void btnGenArray_Click(object sender, EventArgs e)
+        {
+            Random rnd = new Random();
+
+            int count = 10;
+
+            signal.data.Clear();
+
+            for (int i = 0; i < count; i++)
+            {
+                var x = Math.Truncate(rnd.NextDouble() * 100);
+                var y = Math.Truncate(rnd.NextDouble() * 100);
+                signal.data.Add(new MyComplex(x, y));
+            }
+
+            dataGridView1.DataSource = signal.data;
+        }
+
+        private void GenDoubleArray()
+        {
+            Random rnd = new Random();
+
+            int count = 10;
+
+            List<double> arr = new List<double>(count);
+
+            var str = "";
+
+            for (int i = 0; i < count; i++)
+            {
+                var d = Math.Truncate(rnd.NextDouble() * 100);
+                arr.Add(d);
+                str += d.ToString() + "\t";
+            }
+            str += "\n";
+
+            //Sort
+            arr.Sort((x, y) => y.CompareTo(x));
+
+            foreach (var d in arr)
+            {
+                str += d.ToString() + "\t";
+            }
+            richTextBox1.Text = str;
+        }
     }
 }

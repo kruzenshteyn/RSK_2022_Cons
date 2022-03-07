@@ -41,6 +41,10 @@ namespace RSK_2022_WFA_Complex
             this.label4 = new System.Windows.Forms.Label();
             this.progressBar1 = new System.Windows.Forms.ProgressBar();
             this.lblTest = new System.Windows.Forms.Label();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.btnGenArray = new System.Windows.Forms.Button();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // btnSayHello
@@ -147,11 +151,40 @@ namespace RSK_2022_WFA_Complex
             this.lblTest.TabIndex = 11;
             this.lblTest.Text = "Test";
             // 
+            // richTextBox1
+            // 
+            this.richTextBox1.Location = new System.Drawing.Point(50, 234);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.Size = new System.Drawing.Size(465, 171);
+            this.richTextBox1.TabIndex = 12;
+            this.richTextBox1.Text = "";
+            // 
+            // btnGenArray
+            // 
+            this.btnGenArray.Location = new System.Drawing.Point(433, 183);
+            this.btnGenArray.Name = "btnGenArray";
+            this.btnGenArray.Size = new System.Drawing.Size(75, 23);
+            this.btnGenArray.TabIndex = 13;
+            this.btnGenArray.Text = "Gen";
+            this.btnGenArray.UseVisualStyleBackColor = true;
+            this.btnGenArray.Click += new System.EventHandler(this.btnGenArray_Click);
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(667, 126);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(404, 279);
+            this.dataGridView1.TabIndex = 14;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1104, 450);
+            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.btnGenArray);
+            this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.lblTest);
             this.Controls.Add(this.progressBar1);
             this.Controls.Add(this.label4);
@@ -167,6 +200,7 @@ namespace RSK_2022_WFA_Complex
             this.Name = "Form1";
             this.Text = "Form1";
             this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseMove);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -186,6 +220,9 @@ namespace RSK_2022_WFA_Complex
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.ProgressBar progressBar1;
         private System.Windows.Forms.Label lblTest;
+        private System.Windows.Forms.RichTextBox richTextBox1;
+        private System.Windows.Forms.Button btnGenArray;
+        private System.Windows.Forms.DataGridView dataGridView1;
     }
 }
 

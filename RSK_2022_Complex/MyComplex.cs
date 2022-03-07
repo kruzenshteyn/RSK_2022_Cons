@@ -38,9 +38,18 @@ namespace RSK_2022_Complex
             return res;
         }
 
+        //Оператор сложения с вызовом через оператор +
         public static MyComplex operator +(MyComplex a, MyComplex b)
         {
             return new MyComplex(a.x + b.x, a.y + b.y);
+        }
+        public static MyComplex Sub(MyComplex a, MyComplex b)
+        {
+            return new MyComplex(a.x - b.x, a.y - b.y);
+        }
+        public static MyComplex operator -(MyComplex a, MyComplex b)
+        {
+            return new MyComplex(a.x - b.x, a.y - b.y);
         }
 
         public static MyComplex Div(MyComplex a, double d)
@@ -52,12 +61,24 @@ namespace RSK_2022_Complex
             return tmp;
         }
 
-        public static MyComplex Mult(MyComplex a, MyComplex b)
+        public static MyComplex operator *(MyComplex a, MyComplex b)
         {
+            return new MyComplex(a.x * b.x - a.y * b.y, a.x * b.y + a.y * b.x);
+        }
 
+        public static MyComplex operator *(MyComplex a, double d)
+        {
+            return new MyComplex(a.x * d, a.y * d);
+        }
 
+        public static MyComplex Conj(MyComplex a)
+        {
+            return new MyComplex(a.x, -a.y);
+        }
 
-            return null;
+        public static MyComplex ScalarDot(MyComplex a, MyComplex b)
+        {
+            return a * Conj(b);
         }
 
         public double Abs()
@@ -69,6 +90,27 @@ namespace RSK_2022_Complex
         public override string ToString()
         {
             return $"{x} + {y} i";
+        }
+
+        #endregion
+
+        #region Properties
+
+        public double X
+        {
+            get { return this.x; }
+            set { this.x = value; }
+        }
+
+        public double Y
+        {
+            get { return this.y; }
+            set { this.y = value; }
+        }
+
+        public double Norm
+        {
+            get { return this.Abs(); }
         }
 
         #endregion
